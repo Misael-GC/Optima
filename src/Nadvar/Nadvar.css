@@ -1,0 +1,12 @@
+
+
+.Nav-Container{
+    /* display: flex */
+    color: white;
+    background-color: --rojo-optima;
+}
+
+.Nav-Options{
+    display: flex;
+    justify-content: flex-end;
+}
