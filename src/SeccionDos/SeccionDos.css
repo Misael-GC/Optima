@@ -24,28 +24,14 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
-  @keyframes marqueeLeft {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-100%);
-    }
-    100%{
-        transform: translateX(0);
-    }
-  }
-  
-  .MarqueesCarousel-container-marquee--left {
-    animation: marqueeLeft 100s linear infinite;
-  }
-  
+
   .MarqueesCarousel-container-marquee {
     display: block;
     height: 50px;
     overflow: hidden;
     position: relative;
     width: max-content;
+    transform: translate3d(0, 0, 0); /*CODE CODE CODE*/
   }
 
   .MarqueesCarousel-container-marquee div {
@@ -74,4 +60,54 @@
     transition: color .5s;
     width: 50%;
     text-decoration: none;
+    transform: translate3d(0, 0, 0); /* CODE CODE CODE*/
 }
+
+
+
+@keyframes marqueeLeft {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* @keyframes marqueeRight {
+  0% {
+    transform: translateX(100%);
+  }
+  25% {
+    transform: translateX(75%);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  75% {
+    transform: translateX(25%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
+
+.MarqueesCarousel-container-marquee--left {
+  animation: marqueeLeft 150s linear infinite;
+}
+
+/* .MarqueesCarousel-container-marquee--right {
+  animation: marqueeRight 100s linear infinite;
+  will-change: transform;
+} */
+
+

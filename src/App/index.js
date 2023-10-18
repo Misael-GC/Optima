@@ -16,7 +16,6 @@ function App() {
       <Nadvar/>
       <SeccionOne/>
       <SeccionDos/>
-      <SeccionDos/>
       <SeccionTres/>
       <SeccionBox>
         <Item/>
