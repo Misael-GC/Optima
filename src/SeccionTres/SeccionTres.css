@@ -1,0 +1,77 @@
+/* :root {
+    --rojo-optima: #dc3545;
+    --azul-optima: #0dcaf0;
+    --amarillo-optima: #ffc107;
+    --black-optima: #212529;
+    --black-dark:#13161c;
+    }; */
+/* .MarqueesCarousel-container {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: IBM Plex Sans;
+    margin: 0;
+    margin-top: 1rem;
+    overflow: hidden;
+  } */
+
+
+  .MarqueesCarousel-container {
+    /* margin-top: 1rem; */
+    padding-top: 0.5rem;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+  @keyframes marqueeLeft {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+  }
+  
+  .MarqueesCarousel-container-marquee--left {
+    animation: marqueeLeft 100s linear infinite;
+  }
+  
+  .MarqueesCarousel-container-marquee {
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: max-content;
+  }
+
+  .MarqueesCarousel-container-marquee div {
+    display: flex;
+    float: left;
+    gap: 1rem;
+    overflow: hidden;
+    width: 50%;
+}
+
+.MarqueesCarousel-container-marquee div a {
+    background-color: rgba(0,0,0,.3);
+    border-radius: 1rem;
+    color: #dee1e4;
+    -ms-filter: "alpha(opacity=80)";
+    filter: alpha(opacity=80);
+    float: left;
+    font-size: 1rem;
+    min-width: fit-content;
+    opacity: .8;
+    padding: 0.75rem 1.5rem;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -o-transition: color .5s;
+    -ms-transition: color .5s;
+    transition: color .5s;
+    width: 50%;
+    text-decoration: none;
+}
