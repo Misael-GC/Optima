@@ -4,11 +4,13 @@ import './Nadvar.css';
 function Nadvar() {
   return (
     <div className='Nav-Container'>
-      <nav className="navbar navbar-expand-lg bg-dark bg-dark border-bottom border-body" data-bs-theme="dark">
+      <nav className="navbar navbar-expand-lg bg-dark bg-dark " data-bs-theme="dark">
       <div className="container-fluid">
-      <img src="https://i.ibb.co/CPNtDVR/23bae78d-1953-4cd2-83ff-fb4c40400863-modified.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top mx-3"></img>
       
-        <a className="navbar-brand" href="#">Optima</a>
+        <a className="navbar-brand" href="#">
+          <img src="https://i.ibb.co/CPNtDVR/23bae78d-1953-4cd2-83ff-fb4c40400863-modified.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top mx-3"></img>
+          Optima
+        </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

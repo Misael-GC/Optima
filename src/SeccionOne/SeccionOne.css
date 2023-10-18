@@ -1,0 +1,45 @@
+/* :root {
+    --rojo-optima: #dc3545;
+    --azul-optima: #0dcaf0;
+    --amarillo-optima: #ffc107;
+    --black-optima: #212529;
+    --black-dark:#13161c;
+    }; */
+
+.SectionOne-Container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #212529;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-self: center;
+    
+}
+
+
+.SectionOne-Title {
+    justify-content: center;
+}
+
+.SectionOne-Title-first{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.SectionOne-Title-subtitle{
+    font-size: 1.1rem;
+    line-height: 2rem; /*separa el texto*/
+    margin-bottom: 50px;
+}
+
+
+
+.SectionOne-FotoOne, .SectionOne-FotoTwo {
+    width: 100px;
+    height: 100px;
+    background-color: #dc3545;
+}
