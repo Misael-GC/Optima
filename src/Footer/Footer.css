@@ -1,0 +1,140 @@
+.FooterContainer-up{
+    background-color: #1e2229;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.FooterGrid-up {
+  width: 50%;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: center;
+}
+
+.u-wrapper {
+
+    box-sizing: border-box;
+    margin: 0 auto ;
+    max-width: 1200px;
+    padding: 0 .5rem;
+    position: relative;
+  }
+
+  .FooterGrid-up > div {
+    width: 100%;
+  }
+
+  .SloganSection{
+    margin: 20px;
+  }
+
+  .SocialLayout {
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -o-box-lines: multiple;
+    -webkit-box-pack: distribute;
+    -moz-box-pack: distribute;
+    -o-box-pack: distribute;
+    -ms-flex-pack: distribute;
+    -ms-flex-line-pack: center;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #fff;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    grid-column: 1/3;
+    grid-row-start: 2;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    max-width: 170px;
+  }
+
+
+
+  .SocialItem {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+.Twitter:hover{
+    color: rgb(29 161 242);
+}
+.Facebook:hover{
+    color: rgb(8 121 230);
+}
+.Youtube:hover{
+    color: rgb(255 8 8);
+}
+.WhatsApp:hover{
+    color: rgb(45 212 108);
+}
+
+.CategoriesSection {
+  background-color: #19303c;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  grid-column: 3/5;
+  grid-row: 1/3;
+  margin: .5em -1em;
+  padding: .5em 1.5em;
+}
+
+.CategoriesSection .Category {
+  -moz-box-pack: justify;
+  -moz-box-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin: 1em 0;
+  padding-left: .5em;
+}
+
+.CategoriesSection .Category a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+}
+
+.CertifiersLayout{
+  -moz-box-pack: start;
+  justify-content: start;
+  align-content: baseline;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 5/7;
+
+}
+
+/* Pantallas grandes */
+@media only screen and (min-width: 48rem) {
+    .FooterGrid-up {
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      grid-template-rows: 1fr 1fr;
+    }
+
+    .CategoriesSection {
+      background: 0 0;
+      margin: 0;
+      padding: 0 1em;
+    }
+  }

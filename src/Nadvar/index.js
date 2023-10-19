@@ -8,7 +8,7 @@ function Nadvar() {
       <div className="container-fluid">
       
         <a className="navbar-brand" href="#">
-          <img src="https://i.ibb.co/CPNtDVR/23bae78d-1953-4cd2-83ff-fb4c40400863-modified.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top mx-3"></img>
+          <img src="https://i.ibb.co/CPNtDVR/23bae78d-1953-4cd2-83ff-fb4c40400863-modified.png" alt="Logo" width="30" height="24" className="d-inline-block align-text-top mx-3"></img>
           Optima
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
