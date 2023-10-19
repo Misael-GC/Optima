@@ -1,0 +1,109 @@
+.BulletExplainer {
+    background: white;
+    padding: 1rem 0;
+    position: relative;
+    margin-bottom: 8rem;
+    margin: 1.5rem 0;
+    margin: 3rem 0;
+  }
+
+
+  .BulletExplainer::before {
+  backface-visibility: visible;
+  background: linear-gradient(0deg,#fff 30%,transparent 0 70%);
+  bottom: -50px;
+  clip-path: polygon(0 0,100% 0,100% 75%,100% 77%,50% 100%,0 75%,0 75%);
+  content: "";
+  height: 180px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  }
+
+  .u-wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto !important;
+    max-width: 1200px;
+    padding: 0 .5rem;
+    position: relative;
+  }
+
+
+  .BulletExplainer-content {
+    padding: 0;
+    -moz-box-orient: vertical;
+    background: #fff;
+    position: relative;
+  }
+
+  .BulletExplainer-heading {
+    color: #0dcaf0; 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+  }
+
+  .BulletExplainer-title {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -.01rem;
+    line-height: 2.125rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    /* font-family: IBM Plex Sans; */
+  }
+
+  .BulletExplainer-bullets {
+    grid-gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15.62rem,1fr));
+    list-style: none;
+    padding: 0;
+  }
+
+
+
+  .BulletExplainer-bulletTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+  }
+
+  .BulletExplainer-bulletDescription {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+/*Pantallas grandes*/
+  @media only screen and (min-width: 64rem) {
+    .BulletExplainer-content {
+      border-radius: 12px 12px 0 0;
+    }
+  }
+
+  @media only screen and (min-width: 48rem) {
+    .BulletExplainer {
+        padding: 3rem 0;
+      }
+
+    .BulletExplainer-heading {
+        font-size: 1.5rem;
+      }
+
+    .BulletExplainer-title {
+      font-size: 2.5rem;
+      margin-bottom: 3.125rem;
+    }
+    .BulletExplainer-bulletTitle {
+        font-size: 1.25rem;
+        margin-bottom: .75rem;
+      }
+  }

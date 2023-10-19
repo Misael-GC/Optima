@@ -17,13 +17,13 @@ function App() {
       <SeccionOne/>
       <SeccionDos/>
       <SeccionTres/>
+      <SeccionCuatro/>
       <SeccionBox>
         <Item/>
         <Item/>
         <Item/>
         <Item/>
       </SeccionBox>
-      <SeccionCuatro/>
       <SeccionCinco/>
       <SeccionSeis/>
       <Footer/>
