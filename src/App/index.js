@@ -8,6 +8,7 @@ import { SeccionSeis } from '../SeccionSeis';
 import { SeccionBox } from '../SeccionBox';
 import { Item } from '../Item';
 import { Footer } from '../Footer';
+import { Whatsapp } from '../Whatsapp';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       </SeccionBox>
       <SeccionCinco/>
       <SeccionSeis/>
+      <Whatsapp/>
       <Footer/>
     </>
   );

@@ -1,0 +1,44 @@
+
+.CreateTodoButton{
+    background-color:rgb(45 212 108);
+    box-shadow:0 9px 25px rgb(45 212 108);
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:50px;
+    position:fixed;
+    bottom:24px;
+    left: auto;
+    right: 20px;
+    font-weight:700;
+    color:#fafafa;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:64px;
+    width:64px;
+    /* transform:rotate(0);
+    transition:.3s ease */
+}
+
+.CreateTodoButton:hover{
+    font-size: 45px;
+    /* transform:rotate(224deg) */
+}
+
+.icon-whatsApp{
+    color: #fafafa;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .CreateTodoButton{
+        right: 1px;
+        height:54px;
+        width:54px;
+    }
+    .CreateTodoButton:hover{
+        font-size: 30px;
+        transform:rotate(240deg)
+    }
+  }

@@ -21,10 +21,10 @@ function Footer() {
               </p>
             </div>
             <div className='SocialLayout'>
-              <a className='SocialItem Twitter' href='#' target='_blank' rel='noreferrer'><i class="fa-brands fa-twitter"></i></a>
-              <a className='SocialItem Facebook' href='#' target='_blank' rel='noreferrer'> <i class="fa-brands fa-facebook"></i> </a>
-              <a className='SocialItem WhatsApp' href='#' target='_blank' rel='noreferrer'><i class="fa-brands fa-whatsapp"></i></a>
-              <a className='SocialItem Youtube' href='#' target='_blank' rel='noreferrer'><i class="fa-brands fa-youtube"></i></a>
+              <a className='SocialItem Twitter' href='https://twitter.com/OptimaCapp' target='_blank' rel='noreferrer'><i class="fa-brands fa-twitter"></i></a>
+              <a className='SocialItem Facebook' href='https://www.facebook.com/profile.php?id=100040190330823' target='_blank' rel='noreferrer'> <i class="fa-brands fa-facebook"></i> </a>
+              <a className='SocialItem WhatsApp' href='https://wa.me/2221189275' target='_blank' rel='noreferrer'><i class="fa-brands fa-whatsapp"></i></a>
+              <a className='SocialItem Youtube' href='https://www.youtube.com/@Optima_Capacitacion' target='_blank' rel='noreferrer'><i class="fa-brands fa-youtube"></i></a>
             </div>
             <div className='CategoriesSection'>
                 <div className='Category' href='#' style={{ borderLeft: 'solid 3px #DD1014' }}>
