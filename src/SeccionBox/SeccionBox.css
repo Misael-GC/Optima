@@ -1,0 +1,73 @@
+.Plans {
+    margin-bottom: 5rem;
+    background-color: black;
+}
+
+.Plans{
+    margin: 0.02rem 0;
+    padding-top: 2rem;
+}
+
+.Plans-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.Plans-heading h2 {
+    color: #29f2f9;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+.Plans-heading p {
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    color: white;
+}
+
+.LearningRoutes-slider-Plans {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+    /* overflow-x: scroll;
+    overflow-y: scroll; */
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scroll-snap-type: y proximity;
+    scrollbar-width: none;
+    padding-bottom: 5rem;
+  }
+
+
+
+.Card-ContainerPlan{
+    min-width: 19rem;
+    height: 12rem;
+}
+
+.btn-primary{
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+}
+
+  /*Pantallas pequeñas*/
+  @media only screen and (max-width: 64rem) {
+    .u-wrapper1 {
+        padding-left: .5rem;
+      }
+/* Podemos quitar si queremos que sea wrap uno debajo de otro y npo carrusel */
+      .LearningRoutes-slider-Plans {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        justify-content: flex-start;
+      }
+  } 
