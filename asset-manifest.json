@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Optima/static/css/main.a47a85af.css",
+    "main.js": "/Optima/static/js/main.d8c523a4.js",
+    "index.html": "/Optima/index.html",
+    "main.a47a85af.css.map": "/Optima/static/css/main.a47a85af.css.map",
+    "main.d8c523a4.js.map": "/Optima/static/js/main.d8c523a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a47a85af.css",
+    "static/js/main.d8c523a4.js"
+  ]
+}
