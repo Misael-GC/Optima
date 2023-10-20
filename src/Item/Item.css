@@ -1,0 +1,58 @@
+.u-wrapper1 {
+    margin: 0 auto !important;
+    max-width: 100%;
+    padding: 0 .5rem;
+    padding-left: 5rem;
+    position: relative;
+  }
+
+  .LearningRoutes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    /* padding: 1rem; */
+    padding-bottom: 3.5rem !important;
+    background-color: black;
+  }
+
+  .LearningRoutes-title {
+    /* line-height: 500; */
+    color: #eff3f8;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .LearningRoutes-subtitle {
+    color: #DDE0E5;
+    font-size: 1rem;
+  line-height: 1.5rem;
+  }
+
+
+  .LearningRoutes-slider {
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+    /* overflow-x: scroll;
+    overflow-y: scroll; */
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scroll-snap-type: y proximity;
+    scrollbar-width: none;
+  }
+
+
+
+  /*Pantallas pequeñas*/
+  @media only screen and (max-width: 64rem) {
+    .u-wrapper1 {
+        padding-left: .5rem;
+      }
+
+      .LearningRoutes-slider {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: scroll;
+      }
+  } 

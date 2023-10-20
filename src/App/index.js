@@ -19,12 +19,8 @@ function App() {
       <SeccionDos/>
       <SeccionTres/>
       <SeccionCuatro/>
-      <SeccionBox>
         <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-      </SeccionBox>
+      <SeccionBox/>
       <SeccionCinco/>
       <SeccionSeis/>
       <Whatsapp/>
