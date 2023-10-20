@@ -4,7 +4,7 @@ import './Nadvar.css';
 function Nadvar() {
   return (
     <div className='Nav-Container'>
-      <nav className="navbar navbar-expand-lg bg-dark bg-dark " data-bs-theme="dark">
+      <nav className="navbar navbar-expand-lg bg-dark bg-black " data-bs-theme="dark">
       <div className="container-fluid">
       
         <a className="navbar-brand" href="#">

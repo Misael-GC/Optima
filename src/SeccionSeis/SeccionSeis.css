@@ -1,0 +1,28 @@
+
+.Video-Container-secundary{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0.02rem 0;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+/* Estilos predeterminados para todos los dispositivos */
+.Video-ratio {
+    display: flex;
+    justify-content: center; /* Centro en dispositivos grandes */
+    max-width: 800px;
+  }
+  
+  /* Media query para dispositivos pequeños */
+  @media (max-width: 768px) {
+    .Video-ratio {
+      justify-content: flex-start; /* Alinea al principio en dispositivos pequeños */
+    }
+      /* Cambia el tamaño del video */
+  .Video-ratio video {
+    width: 100%; /* Puedes ajustar el valor según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original del video */
+  }
+  }
+  

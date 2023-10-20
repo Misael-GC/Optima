@@ -44,7 +44,7 @@
 }
 
 .MarqueesCarousel-container-marquee div a {
-    background-color: rgba(0,0,0,.3);
+    background-color: black;
     border-radius: 1rem;
     color: #dee1e4;
     -ms-filter: "alpha(opacity=80)";
