@@ -1,0 +1,31 @@
+.Mision-Container{
+    background-color: black;
+    margin: 0.02rem 0;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.Card-principal{
+    max-width: 18rem;
+}
+
+.Mision-Container-secundario{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-header{
+    font-weight: 700;
+}
+
+.Card-texto{
+    font-weight: 400;
+}
+
+  /*Pantallas pequeñas*/
+  @media only screen and (max-width: 64rem) {
+    .Mision-Container-secundario{
+        gap: 1rem;
+    }
+  } 
