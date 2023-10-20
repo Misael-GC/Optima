@@ -34,6 +34,6 @@
   },
   "homepage": "https://misael-gc.github.io/Optima",
   "devDependencies": {
-    "gh-pages": "6.0.0"
+    "gh-pages": "^6.0.0"
   }
 }
