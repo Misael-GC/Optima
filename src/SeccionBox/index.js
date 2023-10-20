@@ -10,7 +10,7 @@ function SeccionBox() {
             <p>
                 <span>Accede a nuestros cursos y contenidos exclusivos.</span> <br/>
                 Aprovecha los beneficios de la plataforma<br/>
-                Clases en vivo y grabados
+                {/* Clases en vivo y grabados */}
             </p>
         </div>
         <div className='00000000'>
@@ -18,33 +18,33 @@ function SeccionBox() {
           {/* other */}
             <div class="card Card-ContainerPlan" style={{width: "18rem;"}}>
             <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Programación</h5>
+                <p class="card-text"> 25 clases, 3 horas por clase, costo .... </p>
+                <a href="https://wa.me/2221189275" target='_blank' class="btn btn-primary">Información</a>
               </div>
             </div>
         {/*  */}
             <div class=" card Card-ContainerPlan" style={{width: "18rem;"}}>
             <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Ofimática</h5>
+                <p class="card-text">25 clases, 3 horas por clase, costo ....</p>
+                <a href="https://wa.me/2221189275" target='_blank' class="btn btn-primary">Información</a>
+              </div>
+            </div>
+        {/*  */}
+            <div class="card Card-ContainerPlan" >
+            <div class="card-body">
+                <h5 class="card-title">Mantenimiento de equipo de computo</h5>
+                <p class="card-text">25 clases, 3 horas por clase, costo ....</p>
+                <a href="https://wa.me/2221189275" target='_blank' class="btn btn-primary">Información</a>
               </div>
             </div>
         {/*  */}
             <div class="card Card-ContainerPlan" style={{width: "18rem;"}}>
             <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-        {/*  */}
-            <div class="card Card-ContainerPlan" style={{width: "18rem;"}}>
-            <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Reparación de celulares</h5>
+                <p class="card-text">25 clases, 3 horas por clase, costo ....</p>
+                <a href="https://wa.me/2221189275" target='_blank' class="btn btn-primary">Información</a>
               </div>
             </div>
         {/*  */}

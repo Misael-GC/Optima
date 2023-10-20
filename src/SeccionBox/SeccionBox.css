@@ -49,13 +49,19 @@
 
 
 .Card-ContainerPlan{
-    min-width: 19rem;
-    height: 12rem;
+    max-width: 18rem;
+    height: 14rem;
 }
 
 .btn-primary{
     background-color: #0dcaf0;
     border-color: #0dcaf0;
+}
+
+.card-text{
+    /* white-space: nowrap;
+    overflow: hidden; */
+    white-space: initial;
 }
 
   /*Pantallas pequeñas*/
@@ -65,9 +71,15 @@
       }
 /* Podemos quitar si queremos que sea wrap uno debajo de otro y npo carrusel */
       .LearningRoutes-slider-Plans {
+        min-width: 18rem;
         flex-wrap: nowrap;
         overflow-x: scroll;
         overflow-y: scroll;
         justify-content: flex-start;
+      }
+
+      .Card-ContainerPlan{
+        min-width: 17rem;
+        height: auto;
       }
   } 
