@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Optima/static/css/main.a47a85af.css",
-    "main.js": "/Optima/static/js/main.d8c523a4.js",
+    "main.css": "/Optima/static/css/main.b96829f6.css",
+    "main.js": "/Optima/static/js/main.69a2990a.js",
     "index.html": "/Optima/index.html",
-    "main.a47a85af.css.map": "/Optima/static/css/main.a47a85af.css.map",
-    "main.d8c523a4.js.map": "/Optima/static/js/main.d8c523a4.js.map"
+    "main.b96829f6.css.map": "/Optima/static/css/main.b96829f6.css.map",
+    "main.69a2990a.js.map": "/Optima/static/js/main.69a2990a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a47a85af.css",
-    "static/js/main.d8c523a4.js"
+    "static/css/main.b96829f6.css",
+    "static/js/main.69a2990a.js"
   ]
 }
