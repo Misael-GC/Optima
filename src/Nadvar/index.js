@@ -21,23 +21,23 @@ function Nadvar() {
               <a className="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link 	" href="#">Features</a>
+              <a className="nav-link 	" href="#Cursos">Cursos</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+              <a className="nav-link" href="#Mision">Misión</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a className="nav-link" href='#Precios' >Precios</a>
             </li>
             {/* code */}
             <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+            Categorías
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#Cursos">Programación</a></li>
+            <li><a class="dropdown-item" href="#Cursos">Ofimática</a></li>
+            <li><a class="dropdown-item" href="#Cursos">Computo</a></li>
           </ul>
         </li>
             {/* code */}

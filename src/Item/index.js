@@ -3,7 +3,7 @@ import './Item.css';
 
 function Item() {
   return (
-    <section className='LearningRoutes u-wrapper1'>
+    <section className='LearningRoutes u-wrapper1' id='Cursos'>
       <h2 className='LearningRoutes-title'> Potencia lo que ya sabes</h2>
       <p className='LearningRoutes-subtitle'>Elige una ruta de aprendizaje y sigue un orden de cursos sobre temas o áreas específicas, de forma ágil y guiada.</p>
       <div>

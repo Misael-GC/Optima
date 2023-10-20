@@ -3,7 +3,7 @@ import './SeccionCinco.css';
 
 function SeccionCinco() {
   return (
-    <section className='Mision-Container bg-black'>
+    <section className='Mision-Container bg-black' id='Mision'>
       <div className='u-wrapper1'>
         <div className='Mision-Container-secundario'>
           {/* separador */}

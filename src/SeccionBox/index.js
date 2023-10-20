@@ -3,7 +3,7 @@ import './SeccionBox.css'
 
 function SeccionBox() {
   return (
-   <section className='Plans'>
+   <section className='Plans' id='Precios'>
       <div className='u-wrapper1'>
         <div className='Plans-heading'>
             <h2>Elige un plan</h2>
