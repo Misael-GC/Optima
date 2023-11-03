@@ -1,6 +1,6 @@
 import { Nadvar } from '../Nadvar';
 import { SeccionOne } from '../SeccionOne';
-import { SeccionDos } from '../SeccionDos';
+// import { SeccionDos } from '../SeccionDos';
 import { SeccionTres } from '../SeccionTres';
 import { SeccionCuatro } from '../SeccionCuatro';
 import { SeccionCinco } from '../SeccionCinco';
@@ -16,7 +16,7 @@ function App() {
     <>
       <Nadvar/>
       <SeccionOne/>
-      <SeccionDos/>
+      {/* <SeccionDos/> */}
       <SeccionTres/>
       <SeccionCuatro/>
         <Item/>
